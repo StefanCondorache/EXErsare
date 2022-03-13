@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head><title>EXErsare3</title></head>
+    <body align="center"> 
+        <a href='url' title='Titlu link'>Text link</a>
+        <ol align="left">
+            <li>href este atributul în care se adaugă adresa link-ului.</li>
+            <li>url este adresa link-ului (a paginii care va fi deschisă). </li>
+            <li>Titlu link este un text ascuns care apare când este poziţionat mouse-ul deasupra link-ului.</li>
+            <li>Text link este textul care va aparea în browser şi pe care trebuie dat click cu mouse-ul.</li>
+        </ol>
+        <style>
+            a {color:red}   #/*culoarea link-urilor */ 
+            a:hover {color:yellowgreen}   #/*culoarea link-urilor când mouse-ul este deasupra lor */ 
+            a:visited { color: #0011fe; } # /*culoarea link-urilor când pagina respectivă a fost / este vizitată */ 
+        </style>
+        <h3><blockquote>In caz in care link-ul este spre o pagina spre o pagina din acelasi repositoriu atunci se poate folosit doar numele de file, in loc de tot traseul</blockquote></h3>
+        <a href= 'Pagina1.html' title= 'Link Pagina 1'> Pagina 1</a> <br>
+        <a href='#indice' >sectorul necesar2</a> <br>
+        <p style="height: 100cm;">
+            text
+        </p>
+        <a id='indice'>sectorul necesar1</a> <br><br>
+        <a href='url' target="_top" >încarcă pagina în toată fereastra browser-ului</a><br>
+        <a href='url' target="_blank" >încarcă pagina într-o fereastră nouă, rămâne astfel și fereastra cu link-ul.</a><br>
+        <a href='url' target="_self" >pagina se va încarca în aceeași fereastră (sau frame dacă e într-un <'iframe'>)</a><br>
+        <a href='url' target="_parent" >pagina se va încărca în fereastra părinte, dacă e într-un <'iframe'></a><br>
+    </body>
+</html>
